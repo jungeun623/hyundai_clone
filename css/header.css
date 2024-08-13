@@ -5,7 +5,6 @@
   top: 0;
   left: 100%;
   width: 450px;
-
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.84);
   z-index: 999999;
@@ -127,7 +126,7 @@
   opacity: 0;
   visibility: hidden;
   /* js로 기능 추가 */
-  /* transition: all 0.2s; */
+  /* transition: all 0.2s; */ 
 }
 .language-box-active .language li{
   transform: translateY(0px);
@@ -140,7 +139,8 @@
     font-weight: 500;
     letter-spacing: -0.83px;
     color: #333;
-    padding: 5px 0;
+    cursor: pointer;
+    /* padding: 5px 0; */
 }
 .bt-menu {
     display: inline-block;
