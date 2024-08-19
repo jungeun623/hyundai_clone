@@ -3,10 +3,9 @@
 @import url("header.css");
 @import url("visual.css");
 @import url("news.css");
-@import url("besiness.css");
+@import url("business.css");
 @import url("mecenter.css");
 @import url("footer.css");
-
 * {
   margin: 0;
   padding: 0;

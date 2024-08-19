@@ -6,11 +6,11 @@ window.addEventListener("load", function () {
   btMenu.addEventListener("click", function () {
     nav.classList.add("nav-active");
   });
-  navClose.addEventListener("click", function () {
+  navClose.addEventListener("click", () => {
     nav.classList.remove("nav-active");
   });
   //   nav영역에 마우스가 벗어나면 nav-active 비활성화한다.
-  nav.addEventListener("mouseleave", function () {
+  nav.addEventListener("mouseleave", () => {
     nav.classList.remove("nav-active");
   });
   // 언어 펼침 기능
@@ -20,7 +20,7 @@ window.addEventListener("load", function () {
   langBox.addEventListener("click", function () {
     langBox.classList.toggle("language-box-active");
   });
-  // lang li에 transition
+  // langageLi에 transition기능
   setTimeout(function () {
     langageLi.style.transition = "all 0.2s";
   }, 500);
@@ -62,4 +62,5 @@ window.addEventListener("load", function () {
     logoW.style.display = "block";
     logoG.style.display = "none";
   });
+  
 });
